@@ -28,7 +28,7 @@ function Main() {
           </span>
         </div>
         <div className="grid lg:grid-cols-4 w-max lg:w-auto grid-cols-2 mt-8 lg:gap-8 gap-16">
-          <div className="flex flex-col lg:justify-between justify-start items-center gap-2 lg:w-auto w-28 lg:px-8  lg:py-4 bg-white border  border-gray-100 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex hover:scale-110 flex-col lg:justify-between justify-start items-center gap-2 lg:w-auto w-28 lg:px-8  lg:py-4 bg-white border  border-gray-100 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700">
             <Image
               src="/water-pool.png"
               className="rounded-full"
@@ -40,7 +40,7 @@ function Main() {
               Floating <br /> Pools
             </span>
           </div>
-          <div className="flex flex-col lg:justify-between justify-start w-28 items-center gap-2 lg:w-auto lg:px-8 lg:py-4 bg-white border shadow-xl border-gray-100   dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex hover:scale-110 flex-col lg:justify-between justify-start w-28 items-center gap-2 lg:w-auto lg:px-8 lg:py-4 bg-white border shadow-xl border-gray-100   dark:bg-gray-800 dark:border-gray-700">
             <Image
               src="/room.png"
               className="rounded-full"
@@ -52,7 +52,7 @@ function Main() {
               Spacious Cabins <br /> Like Rooms
             </span>
           </div>
-          <div className="flex flex-col lg:justify-between justify-start w-28 items-center gap-2 lg:w-auto lg:px-8 lg:py-4 bg-white border border-gray-100  shadow-xl dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex hover:scale-110 flex-col lg:justify-between justify-start w-28 items-center gap-2 lg:w-auto lg:px-8 lg:py-4 bg-white border border-gray-100  shadow-xl dark:bg-gray-800 dark:border-gray-700">
             <Image
               src="/terrace.png"
               className="rounded-full"
@@ -64,7 +64,7 @@ function Main() {
               Sea Facing <br /> Swimming Pools
             </span>
           </div>
-          <div className="flex flex-col lg:justify-between justify-start w-28 items-center gap-2 lg:w-auto lg:px-8 lg:py-4 bg-white border border-gray-100  shadow-xl dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex hover:scale-110 flex-col lg:justify-between justify-start w-28 items-center gap-2 lg:w-auto lg:px-8 lg:py-4 bg-white border border-gray-100  shadow-xl dark:bg-gray-800 dark:border-gray-700">
             <Image
               src="/gym.png"
               className="rounded-full"
@@ -103,18 +103,18 @@ function Main() {
         <Image src="/flat.png" width={900} height={10} alt="flat" />
       </section>
 
-      <div className="flex flex-row justify-center w-24 mx-36 items-center gap-4 lg:mx-auto mt-4">
+      <div className="flex flex-row justify-center  lg:w-auto w-24 mx-36 items-center gap-4 lg:mx-auto mt-4">
         <Image
           src="/room_one.jpeg"
           alt="room_one"
-          className="rounded-lg"
+          className="rounded-lg hover:scale-110"
           width={200}
           height={100}
         />
         <Image
           src="/room_two.jpeg"
           alt="room_two"
-          className="rounded-lg"
+          className="rounded-lg hover:scale-110"
           width={200}
           height={100}
         />
@@ -122,14 +122,14 @@ function Main() {
         <Image
           src="/room_three.jpeg"
           alt="room_three"
-          className="rounded-lg"
+          className="rounded-lg hover:scale-110"
           width={200}
           height={100}
         />
         <Image
           src="/room_four.jpeg"
           alt="room_four"
-          className="rounded-lg"
+          className="rounded-lg hover:scale-110"
           width={200}
           height={100}
         />
