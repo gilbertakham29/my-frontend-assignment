@@ -6,7 +6,7 @@ function Header() {
     <header>
       <nav className="lg:w-full overflow-x-hidden bg-image-bg bg-no-repeat bg-center bg-cover lg:h-screen border-gray-200 px-8 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <a href="https://flowbite.com" className="flex items-center">
+          <a href="/" className="flex items-center">
             <span className="self-center text-white text-xl font-semibold whitespace-nowrap dark:text-white">
               <svg
                 width="166"
